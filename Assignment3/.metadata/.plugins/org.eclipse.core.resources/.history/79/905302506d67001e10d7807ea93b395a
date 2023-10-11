@@ -1,0 +1,50 @@
+package Tester;
+import java.util.Scanner;
+
+import com.app.geometry.Point2D;
+
+public class TestPoint {
+	public static int menu()
+	{	Scanner sc=new Scanner(System.in);
+		int choice;
+		System.out.println("1. Display details of perticular point");
+		System.out.println("2. Display X,Y coordinates of perticular point");
+		System.out.println("3.Distance between two points");
+		
+		choice=sc.nextInt();
+	
+		return choice;	
+	}
+	 
+
+	public static void main(String[] args) 
+	{	int choice;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter how many points you want to enter");
+		int point=sc.nextInt();
+		Point2D []p1=new Point2D[point];
+		for(int i=0;i<point;i++ )
+		{
+			p1[i]=new Point2D();
+			p1[i].acceptPoint();
+		}
+		
+		System.out.println("Enter your choice");
+		int choice=sc.nextInt();
+		
+		
+		while(choice!=0)
+		{
+			switch((choice=menu())!=0)
+			{
+			case 1:
+			{
+				Display details of a specific point
+			}
+			}
+		}
+		
+
+
+	}
+}

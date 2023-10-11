@@ -1,0 +1,28 @@
+package Tester;
+import java.util.Scanner;
+
+import com.app.geometry.Point2D;
+
+public class TestPoint {
+	 
+
+	public static void main(String[] args) 
+	{	Scanner sc=new Scanner(System.in);
+		System.out.println("Enter how many points you want to enter");
+		int point=sc.nextInt();
+		
+		Point2D p1=new Point2D();
+		
+		
+		
+		do
+		{
+			
+		
+		
+		
+
+		}while(true);
+
+	}
+}
