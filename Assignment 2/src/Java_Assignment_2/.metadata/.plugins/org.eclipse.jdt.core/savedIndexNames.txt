@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+/home/sunbeam/ASSIGNMENTS/Java Practice/Java practice/Java_Assignment_2/src/Java_Assignment_2/.metadata/.plugins/org.eclipse.jdt.core
-2598553501.index
-1865797976.index
-646308851.index
