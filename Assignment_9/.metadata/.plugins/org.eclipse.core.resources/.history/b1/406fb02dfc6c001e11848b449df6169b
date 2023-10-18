@@ -1,0 +1,27 @@
+import java.util.Arrays;
+import java.util.Comparator;
+
+public class Q3_Assignment9 {
+
+	public static void main(String[] args) {
+	
+		Students[] arr= new Students[5];
+		arr[0]= {1,"Manas","Ranagiri",100};
+//		arr[1]= {2,"Prathamesh","Palus",150};
+//		arr[2]= {3,"Aniket","Satara",120};
+//		arr[3]= {4,"Anil","Vasmat",80};
+//		arr[4]= {5,"Atish","Islampur",100};
+		
+		class CustomComparator implements Comparator<Students>
+		{
+
+			@Override
+			public int compare(Students s1, Students s2) {
+				int diff=s1.
+				return 0;
+			}
+			
+		}
+	}
+
+}

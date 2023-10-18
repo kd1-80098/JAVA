@@ -1,0 +1,6 @@
+
+public class GenericStaticMethod {
+
+	static <T extends Number> T findMin(T[] arr) {}
+
+}

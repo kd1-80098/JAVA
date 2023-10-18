@@ -1,0 +1,905 @@
+!SESSION 2023-10-17 15:14:56.758 -----------------------------------------------
+eclipse.buildId=3.9.18.202109140905-RELEASE-e421
+java.version=11.0.20.1
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.jface 2 0 2023-10-17 15:15:15.094
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-17 15:15:15.094
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58df2864,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76ccde41,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2023-10-17 15:15:16.211
+!MESSAGE org.eclipse.jdt.junit.ResultView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2023-10-17 15:15:16.212
+!MESSAGE org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2023-10-17 15:15:16.212
+!MESSAGE org.eclipse.contribution.xref.ui.views.XReferenceView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY com.vwmare.vfabric.ide.eclipse.tcserver.core 4 0 2023-10-17 15:15:49.834
+!MESSAGE Error creating server instance with command:
+ "/home/sunbeam/softwares/spring-tool-suite-3.9.18.RELEASE-e4.21.0-linux-gtk-x86_64/sts-bundle/pivotal-tc-server/developer-4.1.0.RELEASE/tcserver create base-instance -t base --force -v 9.0.33.A.RELEASE". Check access permission for the directory /home/sunbeam/softwares/spring-tool-suite-3.9.18.RELEASE-e4.21.0-linux-gtk-x86_64/sts-bundle/pivotal-tc-server/developer-4.1.0.RELEASE and its files and subdirectories.
+!SUBENTRY 1 com.vwmare.vfabric.ide.eclipse.tcserver.core 4 0 2023-10-17 15:15:49.835
+!MESSAGE The instance creation command failed and returned code 1
+!SUBENTRY 1 com.vwmare.vfabric.ide.eclipse.tcserver.core 4 0 2023-10-17 15:15:49.835
+!MESSAGE Output of the instance creation command:
+'create' command failed. An unexpected error occurred while attempting to validate tc Runtime Version 9.0.33.A.RELEASE: repo.pivotal.io
+
+!SESSION 2023-10-17 15:27:11.936 -----------------------------------------------
+eclipse.buildId=3.9.18.202109140905-RELEASE-e421
+java.version=11.0.20.1
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-10-17 15:27:27.208
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2023-10-17 15:27:32.691
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-17 15:27:32.691
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@cef23a8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@762d2e4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.vwmare.vfabric.ide.eclipse.tcserver.core 4 0 2023-10-17 15:28:01.097
+!MESSAGE Error creating server instance with command:
+ "/home/sunbeam/softwares/spring-tool-suite-3.9.18.RELEASE-e4.21.0-linux-gtk-x86_64/sts-bundle/pivotal-tc-server/developer-4.1.0.RELEASE/tcserver create base-instance -t base --force -v 9.0.33.A.RELEASE". Check access permission for the directory /home/sunbeam/softwares/spring-tool-suite-3.9.18.RELEASE-e4.21.0-linux-gtk-x86_64/sts-bundle/pivotal-tc-server/developer-4.1.0.RELEASE and its files and subdirectories.
+!SUBENTRY 1 com.vwmare.vfabric.ide.eclipse.tcserver.core 4 0 2023-10-17 15:28:01.097
+!MESSAGE The instance creation command failed and returned code 1
+!SUBENTRY 1 com.vwmare.vfabric.ide.eclipse.tcserver.core 4 0 2023-10-17 15:28:01.097
+!MESSAGE Output of the instance creation command:
+'create' command failed. An unexpected error occurred while attempting to validate tc Runtime Version 9.0.33.A.RELEASE: repo.pivotal.io
+
+!SESSION 2023-10-18 10:16:20.821 -----------------------------------------------
+eclipse.buildId=3.9.18.202109140905-RELEASE-e421
+java.version=11.0.20.1
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.jface 2 0 2023-10-18 10:16:33.364
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-10-18 10:16:33.364
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11a29c0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1fc4b8d6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2023-10-18 10:16:50.824
+!MESSAGE Connection to https://spring.io/blog.atom failed on spring.io: Temporary failure in name resolution. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: spring.io: Temporary failure in name resolution
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2023-10-18 10:16:50.830
+!MESSAGE Connection to https://dist.springsource.com/release/STS/doc/updates.xml failed on dist.springsource.com: Temporary failure in name resolution. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: dist.springsource.com: Temporary failure in name resolution
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:930)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1543)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1533)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1386)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1307)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1003)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:995)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:18:39.037
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:20:29.732
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:21:38.939
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:21:52.807
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:23:01.324
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:25:23.184
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:25:34.506
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:25:37.310
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:27:00.500
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:28:59.569
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:29:47.281
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:29:47.859
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:29:48.387
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:30:27.482
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:30:37.778
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:30:40.098
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:31:51.626
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:32:03.389
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:32:12.656
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:33:15.911
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:33:24.501
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:34:01.570
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:35:44.503
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:35:54.800
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:36:23.706
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:38:10.290
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:38:17.565
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:38:25.809
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 10:39:22.839
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 13:34:06.012
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 13:34:53.363
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 13:35:17.262
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 13:36:09.162
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 13:36:12.113
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 13:36:23.898
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 13:37:11.903
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 13:37:27.995
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 13:37:38.334
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 13:38:01.398
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 13:40:53.420
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 13:41:06.094
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 15:06:43.770
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 15:07:26.206
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 15:08:05.840
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 15:15:01.258
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 15:15:07.341
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 15:17:24.734
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 15:17:27.703
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-10-18 15:24:05.345
+!MESSAGE Background Indexer Crash Recovery
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/jdt/internal/core/search/indexing/SourceIndexer$AjcClosure1
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:82)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:656)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager$2.execute(IndexManager.java:1280)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:432)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.core.search.indexing.SourceIndexer$AjcClosure1 cannot be found by org.eclipse.jdt.core_3.27.0.v20210823-1758
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:506)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:527)
+	... 5 more

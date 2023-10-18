@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Q4_Assignment9 {
+
+	public static void main(String[] args) {
+		List<Book> list=new ArrayList<>();
+		Book b;
+		int index;
+		do {
+			int choice=new Scanner(System.in).nextInt();
+			
+		}while(choice)
+
+	}
+
+}

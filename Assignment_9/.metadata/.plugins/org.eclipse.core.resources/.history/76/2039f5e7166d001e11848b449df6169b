@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public int menu()
+{	int choice;
+    choice=new Scanner(System.in).nextInt();	
+}
+
+public class Q4_Assignment9 {
+
+	public static void main(String[] args) {
+		List<Book> list=new ArrayList<>();
+		Book b;
+		int index;
+		
+		while()
+		{
+			
+		}
+			
+			
+	
+
+	}
+
+}
