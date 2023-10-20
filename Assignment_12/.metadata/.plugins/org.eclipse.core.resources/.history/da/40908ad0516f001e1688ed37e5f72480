@@ -1,0 +1,12 @@
+package Q1;
+
+public class Clerk implements Emp{
+	double salary;
+
+	@Override
+	public double getSal() {
+		// TODO Auto-generated method stub
+		return this.salary;
+	}
+
+}

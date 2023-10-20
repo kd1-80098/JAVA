@@ -1,0 +1,13 @@
+package Q1;
+
+public class Q1Main {
+
+	public static void main(String[] args) {
+		Emp[] arr=new Emp[3];
+		arr[0]=new Manager();
+		arr[1]=new Labour();
+		arr[2]=new Clerk();
+
+	}
+
+}

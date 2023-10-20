@@ -1,0 +1,12 @@
+package Q4;
+interface Check<T>
+{
+	boolean compare(T x, T y);
+}
+public class CheckClass {
+	
+	public static <T> int countIf(T[] arr, T key, Check<T> c)
+	{
+		return 0;
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;CheckArrayDoubleClass.java&apos; to &apos;Assignment_12/src/Q5&apos;&#x0A;- Original project: &apos;Servers&apos;&#x0A;- Destination element: &apos;Assignment_12/src/Q5&apos;&#x0A;- Original element: &apos;CheckArrayDoubleClass.java&apos;&#x0A;- Update references to refactored element" description="Move file" destination="=Assignment_12/src&lt;Q5" element1="CheckArrayDoubleClass.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1697808062409" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,22 @@
+package Q1;
+
+public interface Emp {
+	double getSal();
+
+public default double calcIncentives()
+{
+	
+	return 0.0;	
+}
+
+static double calcTotalIncome(Emp arr[])
+{
+	double area; 
+	for (Emp emp : arr) {
+		double total=emp.getSal()+emp.calcIncentives();
+	}
+	
+	return total;
+	
+}
+}

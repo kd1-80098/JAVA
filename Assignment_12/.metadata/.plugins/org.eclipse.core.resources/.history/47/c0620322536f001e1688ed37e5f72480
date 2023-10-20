@@ -1,0 +1,10 @@
+package Q6;
+
+public class SumOf10 {
+
+	public static void main(String[] args) {
+		Random r=new Random();
+
+	}
+
+}

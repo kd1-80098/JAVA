@@ -1,0 +1,13 @@
+package Q1;
+
+public class Manager implements Emp{
+	double basicSalary;
+	double dearnessAllowance;
+	@Override
+	public double getSal() {
+		
+		return 0;
+	}
+	
+	
+}

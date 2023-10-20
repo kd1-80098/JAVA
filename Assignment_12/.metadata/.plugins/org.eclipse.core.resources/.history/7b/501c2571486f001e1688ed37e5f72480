@@ -1,0 +1,8 @@
+package Q4;
+interface Check<T>
+{
+	
+}
+public class CheckClass {
+
+}

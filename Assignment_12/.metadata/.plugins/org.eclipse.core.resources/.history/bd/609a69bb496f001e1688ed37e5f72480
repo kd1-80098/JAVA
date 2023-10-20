@@ -1,0 +1,20 @@
+package Q4;
+@FunctionalInterface
+interface Check<T>
+{
+	boolean compare(T x, T y);
+}
+public class CheckClass {
+	
+	public static <T> int countIf(T[] arr, T key, Check<T> c)
+	{
+		
+		
+		return 0;
+	}
+	
+	public static void main(String[] args)
+	{
+		
+	}
+}

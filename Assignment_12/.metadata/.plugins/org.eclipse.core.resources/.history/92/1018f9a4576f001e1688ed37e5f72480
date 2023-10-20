@@ -1,0 +1,9 @@
+package Q8;
+
+import java.util.stream.IntStream;
+
+public class Demo8 {
+	
+	IntStream strm1=IntStream.range(1, 10);
+	inty total=strm.sum();
+}

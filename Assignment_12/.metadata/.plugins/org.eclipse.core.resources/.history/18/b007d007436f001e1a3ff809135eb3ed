@@ -1,0 +1,49 @@
+package Q3;
+
+import java.util.Scanner;
+
+interface Arithmetic {
+	double calc(double a, double b);
+}
+
+public class Calculator
+{
+	
+
+	public static int menu()
+	{
+		int choice;
+		choice=new Scanner(System.in).nextInt();
+		System.out.println("1. Add Numbers");
+		System.out.println("2. Subtract Numbers");
+		System.out.println("3. Multiplication");
+		System.out.println("4. Division");
+		return choice;
+	}
+	
+	public static double calculate(double a, double b, Arithmetic op) {
+		double result = op.calc(double num1, double num2);
+		System.out.println("Result: "+result);
+		return 0;
+	}
+	
+	public static void main(String[] args) {
+		int choice;
+		
+		while((choice=menu())!=0)
+		{
+			switch(choice)
+			{
+			case1:
+				
+			}
+			
+		}
+		
+	}
+
+	
+	
+
+
+}

@@ -1,0 +1,10 @@
+package Q1;
+
+public interface Emp {
+	double getSal();
+
+public default double calcIncentives()
+{
+	
+}
+}
