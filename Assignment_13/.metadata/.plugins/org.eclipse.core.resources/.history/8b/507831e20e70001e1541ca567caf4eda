@@ -1,0 +1,18 @@
+package Q4;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+public class Q4Main {
+
+	public static void main(String[] args) {
+		try (FileReader fr = new FileReader("/home/sunbeam/ASSIGNMENTS/Java/Assignment_13/Assignment_13/Book2.txt")) {
+			try (BufferedReader br = new BufferedReader(fr)) {
+				String line;
+				while ((line = br.readLine()) != null)
+					System.out.println(line);
+			}
+		}
+	}
+
+}

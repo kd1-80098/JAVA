@@ -1,0 +1,175 @@
+package Q1;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.EOFException;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.ListIterator;
+import java.util.Scanner;
+
+public class Q1Main {
+
+	public static int menu() {
+		int choice = 0;
+		System.out.println("========================================================");
+		System.out.println("Enter from below options ");
+		System.out.println("1. Add new book in list");
+		System.out.println("2. Display all books in forward order using randon access");
+		System.out.println("3. Search a book with given isbn");
+		System.out.println("4. Delete at book given index");
+		System.out.println("5. Delete a books with given isbn");
+		System.out.println("6. Reverse the list");
+		System.out.println("7. Save Book in file");
+		System.out.println("8. Load Books from file");
+		System.out.println("0. Exit");
+		System.out.println("========================================================");
+
+		choice = new Scanner(System.in).nextInt();
+		return choice;
+	}
+
+	public static void main(String[] args) {
+		List<BookDetails>list=new ArrayList<BookDetails>();
+		BookDetails b;
+		ListIterator<BookDetails> itr;
+		int choice;
+		while((choice=menu())!=0){
+			switch(choice){
+				case 1:{
+					System.out.println("Add new Book");
+					b=new BookDetails();
+					b.accept();
+                   if(list.contains(b))
+                   {
+                	   int index=list.indexOf(b);
+                	 BookDetails bk=list.get(index);
+//                	   bk=list.get(index);
+                	   bk.setQuantity(bk.getQuantity()+1);
+                   }
+                   else {
+                	   list.add(b);
+                   }}
+				
+				break;
+				case 2:{
+//					System.out.println("========================================================");
+					System.out.println("Displaying all books using forward iterator");
+					itr=list.listIterator();
+							while(itr.hasNext()) {
+								b=itr.next();
+						System.out.println(b);
+						
+							}}
+				break;
+				case 3:{
+					System.out.println("Searching a book with a given isbn");
+					System.out.println("Enter isbn number to search");
+					String a=new Scanner(System.in).next();
+					BookDetails bk=new BookDetails();
+					bk.setIsbn(a);
+					int index=list.indexOf(bk);  //indexof(): Returns the index of the first occurrence of the specified element in this list, or -1 if this list does not contain the element. More formally, returns the lowest index i such that (o==null ? get(i)==null : o.equals(get(i))), or -1 if there is no such index.
+					if(index==-1)
+					{
+						System.out.println("Book Not found");
+					}
+					else {
+						System.out.println("Book found at index: "+index);
+						b=list.get(index);
+						System.out.println(b);
+					}}
+					break;
+				case 4:{
+					System.out.println("Deleting based on serial number");
+					System.out.println("Enter the serial no on which book you want to delete");
+					int index=new Scanner(System.in).nextInt();
+					list.remove(index);
+				}
+				break;
+				case 5:{
+					System.out.println("Deleting based on isbn number");
+					System.out.println("Enter the isbn number to delete");
+					String a=new Scanner(System.in).next();
+					BookDetails bk=new BookDetails();
+					bk.setIsbn(a);
+					int index=list.indexOf(bk);
+					if(index==-1)
+					{
+						System.out.println("Book not found");
+					}
+					else
+					{
+						list.remove(index);
+					}
+				}
+				break;
+				case 6:{
+					System.out.println("Reversing the list");
+					Collections.reverse(list);
+					System.out.println(list);
+				}
+				break;
+				case 7:
+				{
+					
+					try(FileOutputStream fout=new FileOutputStream("Books.txt"))
+					{
+						try(DataOutputStream dout=new DataOutputStream(fout))
+						{
+							for (BookDetails b2 : list) 
+							{
+								dout.writeUTF(b2.getIsbn());
+								dout.writeUTF(b2.getAuthorName());
+								dout.writeDouble(b2.getPrice());
+								dout.writeInt(b2.getQuantity());
+								System.out.println("Books Saved");
+							}	
+						}		
+					}
+					catch (Exception e) 
+						{
+							e.printStackTrace();
+						}
+					}
+				break;
+				case 8:{
+					try(FileInputStream fin =new FileInputStream("Books.txt"))
+					{
+						try(DataInputStream din=new DataInputStream(fin))
+						{
+							while(true) {
+								BookDetails b3=new BookDetails();
+								b3.setIsbn(din.readUTF());
+								b3.setAuthorName(din.readUTF());
+								b3.setPrice(din.readDouble());
+								b3.setQuantity(din.readInt());
+							}
+						}
+						
+					}
+					catch(EOFException e)
+					{
+						
+					}
+					catch(Exception e)
+					{
+						e.printStackTrace();
+					}
+					
+					
+				}
+				break;
+				default: {
+					System.out.println("Invalid input!");
+				}
+					
+				}
+		}
+	}
+
+}
+
+

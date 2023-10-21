@@ -1,0 +1,19 @@
+package Q4;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+public class Q4Main {
+
+	public static void main(String[] args) {
+		FileReader fr=new FileReader("Book2.txt");
+		BufferedReader br=new BufferedReader(fr);
+		String line;
+		while((line=br.readLine())!=0)
+		{
+			System.out.println(line);
+		}
+
+	}
+
+}
