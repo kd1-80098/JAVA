@@ -1,0 +1,73 @@
+package Q1;
+
+
+
+import java.util.List;
+import java.util.Scanner;
+
+
+
+public class Q1Main {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		CandidateDao dao=new CandidateDao();
+		System.out.println("Enter Name of the candidate");
+		String name=sc.next();
+		System.out.println("Enter party name");
+		String party=sc.next();
+		System.out.println("Enter number of votes");
+		int num=sc.nextInt();
+		int cnt=dao.addNewCandidate(name, party, num);
+		System.out.println("Candidates added: "+cnt);
+		/*
+		try(CandidateDao dao = new CandidateDao()) {
+			System.out.print("Enter candidate id to be deleted: ");
+			int id = sc.nextInt();
+			int cnt = dao.deleteById(id);
+			System.out.println("Candidates deleted: " + cnt);
+		} // dao.close();
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		*/
+		
+		/*
+		try(CandidateDao dao = new CandidateDao()) {
+			List<Candidate> list = dao.findAll();
+			list.forEach(c -> System.out.println(c));
+		} // dao.close();
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		*/
+
+		/*
+		try(CandidateDao dao = new CandidateDao()) {
+			System.out.print("Enter party: ");
+			String party = sc.next();
+			List<Candidate> list = dao.findByParty(party);
+			list.forEach(c -> System.out.println(c));
+		} // dao.close();
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+		*/
+		
+		try(CandidateDao dao = new CandidateDao()) {
+			System.out.print("Enter candidate id (to vote): ");
+			int candidateId = sc.nextInt();
+			int cnt = dao.incrementVote(candidateId);
+			System.out.println("Rows updated: " + cnt);
+		} // dao.close();
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+}
+
+
+
+
+
+

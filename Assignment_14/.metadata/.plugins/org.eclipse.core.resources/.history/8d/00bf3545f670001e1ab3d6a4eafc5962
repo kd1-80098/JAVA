@@ -1,0 +1,18 @@
+package Q1;
+
+public class PartyVotes {
+
+	String party;
+	int votes;
+	public PartyVotes(String party, int votes) {
+		super();
+		this.party = party;
+		this.votes = votes;
+	}
+	public PartyVotes() {
+		
+	}
+	
+	
+	
+}

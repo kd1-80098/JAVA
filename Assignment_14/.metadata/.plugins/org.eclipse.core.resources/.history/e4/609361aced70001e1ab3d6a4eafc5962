@@ -1,0 +1,11 @@
+package Q3;
+
+public class DbUtil{
+	public static final String DB_Driver="com.mysql.cj.jdbc.Driver";
+	public static final String DB_URL="jdbc:mysql://localhost:3306/JavaJDBC";
+	public static final String DB_USER="KD1_80098_ManasKelkar";
+	public static final String DB_PASSWD="manager";
+	
+	
+}
+

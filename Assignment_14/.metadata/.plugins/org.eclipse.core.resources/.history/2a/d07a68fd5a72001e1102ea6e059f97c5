@@ -1,0 +1,65 @@
+package Q2;
+
+import java.sql.Date;
+import java.sql.SQLException;
+import java.text.SimpleDateFormat;
+import java.util.Scanner;
+
+public class Q2Main {
+
+	public static int menu() {
+		int choice;
+		System.out.println("Menu");
+		System.out.println("1.Add New User");
+		System.out.println("2.Delete User");
+		System.out.println("3.Update User");
+		System.out.println("4.Display all User");
+		System.out.println("5.Display all User of specific id");
+		System.out.println("6.Change vote status");
+		System.out.println("0.Exit");
+		choice = new Scanner(System.in).nextInt();
+		return choice;
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int choice = 0;
+		List<User> list=new ArrayList<User>();
+		while ((choice = menu()) != 0) {
+			switch (choice) {
+			case 1: {
+				System.out.println("Adding the User!");
+				try (UserDao dao = new UserDao()) {
+					User u = new User();
+
+					System.out.println("Enter First Name:");
+					u.setFirstName(sc.next());
+					System.out.println("Enter Last Name: ");
+					u.setLastName(sc.next());
+					System.out.println("Enter Email Address:");
+					u.setEmail(sc.next());
+					System.out.println("Enter Password: ");
+					u.setPassword(sc.next());
+					System.out.println("Enter Date of Birth in dd-mm-yyyy");
+					u.setDate(sc.next());
+					int cnt = dao.insertUser(u);
+					System.out.println("User Added: " + cnt);
+
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+				break;
+			case 2: {
+				System.out.println("displaying all Users!");
+				try (UserDao dao = new UserDao()) {
+					
+				}
+
+			}
+			}
+
+		}
+	}
+
+}

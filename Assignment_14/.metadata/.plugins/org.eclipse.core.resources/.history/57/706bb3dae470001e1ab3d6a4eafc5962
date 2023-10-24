@@ -1,0 +1,7 @@
+package Q2;
+
+public class DbUtil{
+	public static final String DB_Driver="com.mysql.cj.jdbc.driver";
+	public static final String DB_PASSWD="";
+}
+
